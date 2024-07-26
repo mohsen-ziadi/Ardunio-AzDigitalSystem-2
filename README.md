@@ -2,9 +2,9 @@
 ![main-header](./files/image/main-header.png)
 In this repository there are different projects with Arduino board.
 
-##setup
-1. To start the projects, you must first download the Arduino library for the Proteus software.
-> [DOWNLOAD Arduino library File](./files/Arduino%20files/library.zip)
+## setup
+To start the projects, you must first download the Arduino library for the Proteus software.
+> [DOWNLOAD Arduino library File](./files/Arduino%20files/library.zip "download")
 
 After downloading the compressed file of the Proteus library, unzip it and you will have two files in it.
 The names of these two compressed files of the Proteus library are as follows:
