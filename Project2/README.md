@@ -1,4 +1,4 @@
-# Project 1
+# Project 2
 This project consists of 3 parts:
 
 ## Part 1:
