@@ -14,3 +14,8 @@ with the difference that with the increase of each unit "." Turn off and on once
 ![Arduino](./3/image.jpg)
 
 In this part of the project, we have to make a two-digit counter using ic7447 and 7 segments.
+
+## Part 3:
+![Arduino](./4/image.jpg)
+
+In this part of the project, we have to make a tree-digit counter using ic7447 and 7 segments.
