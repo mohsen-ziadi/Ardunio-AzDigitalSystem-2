@@ -37,7 +37,7 @@ void loop() {
         for (d = 0; d <= 3; d++) {
           digitalWrite(d, segment[c][d]);
         }
-        delay(60);
+        delay(200);
       }
     }
   }
