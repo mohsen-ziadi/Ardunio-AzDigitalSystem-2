@@ -1,17 +1,20 @@
 # Project 2
-This project consists of 3 parts:
+این پروژه نیز شامل سه بخش می باشد که هر کدام مدار خاص خودش را دارد:
 
-## Part 1:
+## بخش 1:
 ![Arduino](./1/image.jpg)
 
-In this part of the project, the LED should be turned on by pressing one key and turned off by pressing another key.
+در این بخش، ما یک LED به پایه شماره 8 متصل کردیم
+همچنین با استفاده از مدار های pull-up و pull-down، دو ورودی به برد می دهیم.
+در این بخش باید با فشردن یک دکمه لامپ روشن و با فشردن دکمه دیگر لامپ خاموش شود.
 
-## Part 2:
+## بخش 2:
 ![Arduino](./2/image.jpg)
 
-In this part of the project, we have to turn on the LED by pressing the key and turn off the LED as soon as the hand is released from the key.
+در این بخش از پروژه، ما برای ورودی فقط از یک دکمه استفاده کرده ایم. و قرار است که با فشردن دکمه لامپ روشن شود، و تا زمانی که دست بر روی دکمه است، لامپ روشن بماند.
+به محض اینکه دستمان از روی دکمه برداشته شد، لامپ خاموش  بشود.
 
-## Part 3:
+## بخش 3:
 ![Arduino](./3/image.jpg)
 
-In this part of the project, the LED should be turned on by pressing the key and turned off by pressing the same key again.
+مدار این بخش هم به مانند مدار بخش دوم است، با این تفاوت که در این بخش با فشردن دکمه، لامپ روشن، و با فشردن دوباره همان دکمه، لامپ خاموش شود.
