@@ -1,28 +1,32 @@
-# Ardunio--AzDigitalSystem-2
+# پروژه آزمایشگاه سیستم دیجیتال 2
 ![main-header](./files/image/main-header.png)
-In this repository there are different projects with Arduino board.
+در این ریپازیتوری، پروژه های مختلف کد نویسی برد آردوئینو که در آزمایشگاه سیستم دیجیتال 2 انجام شده است، قرار داده شده است.
+این پروژه ها شامل کد های برد آردوئینو و فایل شبیه ساز پروتئوس می باشد.
 
-## setup
-To start the projects, you must first download the Arduino library for the Proteus software.
+## setup (نصب)
+برای راه اندازی پروژه ها، ابتدا باید IDE آردوئینو و نرم افزار پروتئوس را بر روی سیستم خود نصب داشته باشید.
+از آنجایی که نرم افزار پروتئوس، به صورت دیفالت از آردوئینو پشتیبانی نمی کند، باید کتابخانه های آردوئینو بر روی پروتئوس نصب شوند. که لینک دانلود کتاب خانه ها در پایین قرار داده شده اند.
 > [DOWNLOAD Arduino library File](./files/Arduino%20files/library.zip "download")
 
-After downloading the compressed file of the Proteus library, unzip it and you will have two files in it.
-The names of these two compressed files of the Proteus library are as follows:
+پس از دانلود کتابخانه ها، دو فایل با نام های زیر دانلود میشوند:
 1. ArduinoTEP.LIB
 2. ArduinoTEP.IDX
 
-Copy the first file and place it in the following path:
+فایل اول را در آدرس زیر کپی می کنیم:
 ```
 C:\Program Files (x86)\Labcenter Electronics\Proteus 8 Professional\DATA\LIBRARY
 ```
 
-Copy the second file and place it in the following path:
+و فایل دوم  را نیز در آدرس زیر جایگذاری می کنیم:
 ```
 C:\Program Files (x86)\Labcenter Electronics\Proteus 8 Professional\DATA\Library Indexing
 ```
 
-After installing the library, we go to the Arduino file:
-1. There, you compile the file in binary form by pressing (Alt + Ctrl + S) buttons.
-2. Then in the Proteus software, by clicking on the Arduino board, you select the (.hex) file.
-    (the same files that were created after compilation)
-3. Run Proteus
+پس از انجام کار های بالا کار های بالا برای اجرا هر پروژه مراحل زیر را انجام میدهیم:
+
+1. ابتدا  باید یک فایل خروجی باینری از کد بگیریم. برای این کار دکمه های (alt + Ctrl + S) را می فشاریم تا این فایل ها ایجاد شوند.
+
+2. سپس وارد فایل شبیه ساز پروژه در پروتئوس می شویم، و با کلیک بر روی برد  آردوئینو می توانیم یکی از این فایل های باینری (.hex) را انتخاب کنیم.
+
+3. پس از انجام این کار ها پرتئوس را اجرا می کنیم.
+
