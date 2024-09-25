@@ -1,14 +1,13 @@
 # Project 1
-This project consists of 3 parts:
+این پروژه شامل سه بخش می باشد. مدار هر سه بخش این پروژه به یک صورت است برای همین فقط یک فایل شبیه ساز برای این پروژه قرار داده شده است، در مدار این پروژه ده لامپ LED به آردوینو متصل شده اند، و قرار است که در هر بخش به صورت های مختلفی روشن و خاموش شوند.
 
 ![Arduino](./image.jpg)
 
-## Part 1:
-In this part of the project, we need to turn on 10 LEDs in sequence, and then turn them all off with,
+## بخش 1:
+در بخش اول، ابتدا لامپ ها به ترتیب از اول تا به آخر روشن می شوند، به محض روشن شدن لامپ آخر، همه لامپ ها به یکباره خاموش می شوند.
 
-## Part 2:
-In this part of the project, we need to turn on 10 LED bulbs in sequence, and also turn them off in sequence
+## بخش 2:
+در بخش دوم، همه لامپ ها به ترتیب از اول تا آخر روشن می شوند، و وقتی لامپ آخر روشن می شود، حالا لامپ ها به ترتیب از آخر به اول روشن می شوند.
 
-## Part 3:
-In this part of the project, we have to turn on the LEDs from both ends until they reach the middle,
-when they reach the middle, they turn off in the same order.
+## بخش 3:
+در بخش آخر لامپ ها، به ترتیب از اول و آخر روشن می شوند تا به وسط برسند، وقتی لامپ های وسط روشن شدن، دوباره لامپ ها به ترتیب یکی یکی خاموش می شوند.
