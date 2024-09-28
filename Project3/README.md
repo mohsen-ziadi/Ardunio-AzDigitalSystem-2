@@ -1,21 +1,20 @@
 # Project 3
-This project consists of 4 parts:
+این پروژه شامل سه بخش است. ولی روند کلی این پروژه ساخت یک شمارنده با استفاده از سون سگمنت و ic7447 می باشد.
 
 ## Part 1:
 ![Arduino](./1/image.jpg)
 
-In this part of the project, we need to build a single digit counter using ic7447 and a 7-segment.
+در این بخش از پروژه، باید اعداد باینری را به عنوان خروجی برد آردوئینو تعیین کنیم. پس از اینکه این عدد باینری را به ic7447 می دهیم، این عدد باینری تبدیل به کد صفر و یک می شود که باعث می شود سون سگمنت آن عدد را نشان دهد.
+در این بخش از پروژه فقط نیاز است که اعداد صفر تا 9 نمایش داده شود و پس از سیدن به عدد 9، دوباره شمارش شروع می شود.
 
 ## Part 2:
-In this part of the project, we need to build a single digit counter using ic7447 and a 7-segment.
-with the difference that with the increase of each unit "." Turn off and on once.
+این بخش از پروژه، مداری مانند مدار بخش اول دارد با این تفاوت که با تغییر هر عدد، چراغ نقطه در سون سگمنت یک بار خاموش و روشن می شود.
 
 ## Part 3:
 ![Arduino](./3/image.jpg)
-
-In this part of the project, we have to make a two-digit counter using ic7447 and 7 segments.
+در این بخش از پروژه، باید یک شمارنده دورقمی را درست کنیم که از عدد صفر شروع شود تا 99 ادامه دهد.
 
 ## Part 3:
 ![Arduino](./4/image.jpg)
 
-In this part of the project, we have to make a tree-digit counter using ic7447 and 7 segments.
+این بخش از پروژه هم باید شمارنده سه رقمی درست شود و از عدد 0 تا 999 را بشمارد.
