@@ -9,7 +9,7 @@ void loop() {
     digitalWrite(8,HIGH);
   }
   
-  if(digitalRead(5)==0){
+  if(digitalRead(5)==1){
     digitalWrite(8,LOW);
   }
 
