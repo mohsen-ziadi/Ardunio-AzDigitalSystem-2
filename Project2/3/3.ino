@@ -7,7 +7,7 @@ void setup() {
 void loop() {
   if(digitalRead(2) ==1){
     y+=1;
-    delay(300);
+    
   }
 
   if(y==1){
