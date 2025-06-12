@@ -1,32 +1,65 @@
-# پروژه آزمایشگاه سیستم دیجیتال 2
+# 🔧 Arduino Projects - Digital Systems Lab II 
+
 ![main-header](./files/image/main-header.png)
-در این ریپازیتوری، پروژه های مختلف کد نویسی برد آردوئینو که در آزمایشگاه سیستم دیجیتال 2 انجام شده است، قرار داده شده است.
-این پروژه ها شامل کد های برد آردوئینو و فایل شبیه ساز پروتئوس می باشد.
 
-## setup (نصب)
-برای راه اندازی پروژه ها، ابتدا باید IDE آردوئینو و نرم افزار پروتئوس را بر روی سیستم خود نصب داشته باشید.
-از آنجایی که نرم افزار پروتئوس، به صورت دیفالت از آردوئینو پشتیبانی نمی کند، باید کتابخانه های آردوئینو بر روی پروتئوس نصب شوند. که لینک دانلود کتاب خانه ها در پایین قرار داده شده اند.
-> [DOWNLOAD Arduino library File](./files/Arduino%20files/library.zip "download")
+This repository contains a collection of Arduino-based projects developed for the "Digital Systems Laboratory II" course. Each project includes Arduino source code and Proteus simulation files.
 
-پس از دانلود کتابخانه ها، دو فایل با نام های زیر دانلود میشوند:
-1. ArduinoTEP.LIB
-2. ArduinoTEP.IDX
+---
 
-فایل اول را در آدرس زیر کپی می کنیم:
+## 🧩 Repository Contents
+
+- Complete Arduino source codes written in C/C++
+- Proteus simulation files with `.pdsprj` extension
+- Circuit diagrams and project descriptions where applicable
+
+---
+
+## ⚙️ Setup Instructions
+
+### Required Software:
+
+- [Arduino IDE](https://www.arduino.cc/en/software)
+- [Proteus 8 Professional](https://www.labcenter.com)
+
+### Installing Arduino Library for Proteus:
+
+> [📥 Download Arduino Library](./files/Arduino%20files/library.zip)
+
+After extracting the ZIP file, you will get two files:
+
+1. `ArduinoTEP.LIB`
+2. `ArduinoTEP.IDX`
+
+Copy `ArduinoTEP.LIB` to:
 ```
 C:\Program Files (x86)\Labcenter Electronics\Proteus 8 Professional\DATA\LIBRARY
 ```
-
-و فایل دوم  را نیز در آدرس زیر جایگذاری می کنیم:
+Copy `ArduinoTEP.IDX` to:
 ```
 C:\Program Files (x86)\Labcenter Electronics\Proteus 8 Professional\DATA\Library Indexing
 ```
 
-پس از انجام کار های بالا کار های بالا برای اجرا هر پروژه مراحل زیر را انجام میدهیم:
+---
 
-1. ابتدا  باید یک فایل خروجی باینری از کد بگیریم. برای این کار دکمه های (alt + Ctrl + S) را می فشاریم تا این فایل ها ایجاد شوند.
+## 🚀 Running the Projects
 
-2. سپس وارد فایل شبیه ساز پروژه در پروتئوس می شویم، و با کلیک بر روی برد  آردوئینو می توانیم یکی از این فایل های باینری (.hex) را انتخاب کنیم.
+1. Open the Arduino project in Arduino IDE and press `Ctrl + Alt + S` to generate the `.hex` binary file.
 
-3. پس از انجام این کار ها پرتئوس را اجرا می کنیم.
+2. Open the Proteus simulation project, double-click on the Arduino board, and select the generated `.hex` file.
+
+3. Click the Play button in Proteus to start the simulation.
+
+
+---
+
+## 👨‍💻 Contribution
+
+If you have similar projects you'd like to add, feel free to fork the repo and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
 

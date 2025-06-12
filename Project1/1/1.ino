@@ -1,20 +1,14 @@
-int i = 0;
 void setup() {
-  for (int i = 0; i < 10; i++)
-  {
+  for (int i = 6; i <= 13; i++) {
     pinMode(i, OUTPUT);
   }
 }
 
 void loop() {
-  for (int i = 0; i < 10; i++)
-  {
-    digitalWrite(i, HIGH);
+  for (int counter = 0; counter < 256; counter++) {
+    for (int i = 0; i < 8; i++) {
+      digitalWrite(i + 6, bitRead(counter, i)); 
+    }
     delay(200);
   }
-
-  for (int i = 9; i >= 0; i--) {
-    digitalWrite(i, LOW);
-  }
-  delay(200);
 }
