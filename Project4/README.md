@@ -1,15 +1,37 @@
-# Project 4
+# Project 4: Advanced Seven-Segment Counters and Digital Clock
 
-## Part 1:
-در این بخش از پروژه باید یک شمارنده دو رقمی با استفاده از سون سگمنت درست کنیم. تفاوت این پروژه با پروژه قبلی در این است که در این پروژه از ic7447 استفاده نشده است.
-برای راه اندازی این پروژه، کافیست با استفاده از راهنمای سون سگمنت، به جای خروجی عدد باینری، فقط کافیست یه خروجی متناسب با سون سگمنت را برای برد آردوئینو تعیین کنیم.
-همچنین در این پروژه، یک ئکمه به عنوان ورودی به برد داده شده است. که با فشردن دکمه، یک رقم به شمارنده اضافه می شود.
 
-![Arduino](./1/image.jpg)
+## Part 1: Two-Digit Counter Without IC7447
 
-## Part 2:
-### پروژه ساعت:
-در این پروژه، ساعت با دقت دقیقه و ساعت نمایش می دهد.
-دو سون سگمنت سمت راست دقیقه، و دو سون سگمنت سمت چپ ساعت را نشان می دهد.
+![Circuit Part 1](./1/image.jpg)
 
-![Arduino](./2/image.png)
+In this part, you will build a **two-digit counter** using seven-segment displays **without** the IC7447 decoder.  
+Unlike the previous projects where IC7447 was used to convert binary input to seven-segment signals, here the Arduino directly outputs the required signals for each digit based on the seven-segment pin mapping.
+
+Additionally, a **button** is connected as an input to the Arduino.  
+Every time the button is pressed, the counter increments by one.
+
+---
+
+## Part 2: Digital Clock with Seven-Segment Displays
+
+![Circuit Part 2](./2/image.png)
+
+This project implements a **digital clock** that displays hours and minutes with minute precision.  
+- The **two rightmost** seven-segment displays show the **minutes**.  
+- The **two leftmost** seven-segment displays show the **hours**.
+
+The clock updates accordingly to show the current time as it counts.
+
+---
+
+## How to Run
+
+1. Load the Arduino code for the desired part into the Arduino IDE.
+2. Compile and generate the `.hex` file (shortcut: `Ctrl + Alt + S`).
+3. Import the `.hex` file into the Arduino component within the corresponding Proteus simulation file.
+4. Run the simulation and observe the counter or clock behavior on the seven-segment displays.
+
+---
+
+Feel free to reach out for questions or contributions!

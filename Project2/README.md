@@ -1,20 +1,44 @@
-# Project 2
-این پروژه نیز شامل سه بخش می باشد که هر کدام مدار خاص خودش را دارد:
+# Project 2: Button-Controlled LED Circuits
 
-## بخش 1:
-![Arduino](./1/image.jpg)
+This project consists of three parts, each with a distinct circuit design.
 
-در این بخش، ما یک LED به پایه شماره 8 متصل کردیم
-همچنین با استفاده از مدار های pull-up و pull-down، دو ورودی به برد می دهیم.
-در این بخش باید با فشردن یک دکمه لامپ روشن و با فشردن دکمه دیگر لامپ خاموش شود.
+---
 
-## بخش 2:
-![Arduino](./2/image.jpg)
+## Part 1: Two-Button Control with Pull-Up and Pull-Down
 
-در این بخش از پروژه، ما برای ورودی فقط از یک دکمه استفاده کرده ایم. و قرار است که با فشردن دکمه لامپ روشن شود، و تا زمانی که دست بر روی دکمه است، لامپ روشن بماند.
-به محض اینکه دستمان از روی دکمه برداشته شد، لامپ خاموش  بشود.
+![Circuit Part 1](./1/image.jpg)
 
-## بخش 3:
-![Arduino](./3/image.jpg)
+In this part, a single LED is connected to Arduino pin 8.  
+Two buttons are used as inputs with **pull-up and pull-down configurations**.  
+Pressing one button turns the LED **ON**, and pressing the other button turns it **OFF**.
 
-مدار این بخش هم به مانند مدار بخش دوم است، با این تفاوت که در این بخش با فشردن دکمه، لامپ روشن، و با فشردن دوباره همان دکمه، لامپ خاموش شود.
+---
+
+## Part 2: Momentary Button Control
+
+![Circuit Part 2](./2/image.jpg)
+
+This section uses **only one button** as input.  
+The LED turns **ON** while the button is pressed and remains **OFF** as soon as the button is released.
+
+---
+
+## Part 3: Toggle Button Control
+
+![Circuit Part 3](./3/image.jpg)
+
+The circuit here is similar to Part 2, but with different behavior:  
+Pressing the button **toggles** the LED — the first press turns it **ON**, and the second press turns it **OFF**.
+
+---
+
+## How to Run
+
+1. Open the Arduino code for each part in the Arduino IDE.
+2. Compile and generate the `.hex` file (`Ctrl + Alt + S`).
+3. Load the `.hex` into the Arduino component in the corresponding Proteus simulation.
+4. Run the simulation and test each button’s behavior.
+
+---
+
+Feel free to reach out for any questions or improvements!

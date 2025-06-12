@@ -1,20 +1,51 @@
-# Project 3
-این پروژه شامل سه بخش است. ولی روند کلی این پروژه ساخت یک شمارنده با استفاده از سون سگمنت و ic7447 می باشد.
+# Project 3: Seven-Segment Display Counter with IC7447
 
-## Part 1:
-![Arduino](./1/image.jpg)
+This project consists of three parts, all focused on building a counter using a seven-segment display and the IC7447 BCD to 7-segment decoder.
 
-در این بخش از پروژه، باید اعداد باینری را به عنوان خروجی برد آردوئینو تعیین کنیم. پس از اینکه این عدد باینری را به ic7447 می دهیم، این عدد باینری تبدیل به کد صفر و یک می شود که باعث می شود سون سگمنت آن عدد را نشان دهد.
-در این بخش از پروژه فقط نیاز است که اعداد صفر تا 9 نمایش داده شود و پس از سیدن به عدد 9، دوباره شمارش شروع می شود.
+---
 
-## Part 2:
-این بخش از پروژه، مداری مانند مدار بخش اول دارد با این تفاوت که با تغییر هر عدد، چراغ نقطه در سون سگمنت یک بار خاموش و روشن می شود.
+## Part 1: Single-Digit Counter (0 to 9)
 
-## Part 3:
-![Arduino](./3/image.jpg)
-در این بخش از پروژه، باید یک شمارنده دورقمی را درست کنیم که از عدد صفر شروع شود تا 99 ادامه دهد.
+![Circuit Part 1](./1/image.jpg)
 
-## Part 3:
-![Arduino](./4/image.jpg)
+In this part, the Arduino outputs **binary numbers** which are sent to the IC7447.  
+The IC7447 converts these binary inputs into signals that control the seven-segment display to show the corresponding digit.  
+The counter should display digits from **0 to 9**, then reset back to 0 and repeat.
 
-این بخش از پروژه هم باید شمارنده سه رقمی درست شود و از عدد 0 تا 999 را بشمارد.
+---
+
+## Part 2: Single-Digit Counter with Decimal Point Blink
+
+This circuit is similar to Part 1, but with one additional feature:  
+Each time the displayed number changes, the **decimal point** on the seven-segment display blinks once (turns off and then on).
+
+---
+
+## Part 3: Multi-Digit Counters
+
+### Two-Digit Counter (0 to 99)
+
+![Circuit Part 3](./3/image.jpg)
+
+This part extends the counter to **two digits**, counting from 0 up to 99.
+
+---
+
+### Three-Digit Counter (0 to 999)
+
+![Circuit Part 4](./4/image.jpg)
+
+Finally, the project implements a **three-digit counter** capable of counting from 0 up to 999.
+
+---
+
+## How to Run
+
+1. Load the Arduino sketch for the respective part into the Arduino IDE.
+2. Compile and generate the `.hex` file (shortcut: `Ctrl + Alt + S`).
+3. Import the `.hex` file into the Arduino component within the corresponding Proteus simulation.
+4. Run the simulation to observe the counting behavior on the seven-segment display(s).
+
+---
+
+If you have any questions or feedback, feel free to open an issue or submit a pull request.
